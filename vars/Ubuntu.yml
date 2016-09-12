@@ -3,3 +3,4 @@
 
 influxdb_packages:
   - influxdb={{ influxdb_version }}*
+influxdb_group: influxdb

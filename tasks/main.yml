@@ -17,7 +17,7 @@
     src: influxdb.conf.j2
     dest: /etc/influxdb/influxdb.conf
     owner: root
-    group: root
+    group: "{{ influxdb_group }}"
     mode: 0644
   notify:
     - restart influxdb
