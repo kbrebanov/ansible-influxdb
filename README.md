@@ -15,7 +15,7 @@ Role Variables
 
 | Name                                             | Default                | Description                                                                                                                                                |
 |:-------------------------------------------------|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| influxdb_version                                 | 1.0.0                  | Version of InfluxDB to install                                                                                                                             |
+| influxdb_version                                 | 1.0.2                  | Version of InfluxDB to install                                                                                                                             |
 | influxdb_hostname                                | ''                     | Use this option to manually set the hostname                                                                                                               |
 | influxdb_reporting_disabled                      | false                  | When enabled, InfluxDB will report usage data every 24 hours to usage.influxdata.com                                                                       |
 | influxdb_meta_dir                                | /var/lib/influxdb/meta | Where the metadata/raft database is stored                                                                                                                 |
